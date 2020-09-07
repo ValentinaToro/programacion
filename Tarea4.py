@@ -1,0 +1,12 @@
+#
+#En el primero deberán demostrar las 4 operaciones aritméticas, además de la operación módulo
+#  definiendo variables e imprimiéndolas en cada paso, usando f-strings.
+print ("Primero definiré la variable,")
+valor_global = 6
+x = valor_global
+print(x)
+print(type(x))
+print ("luego realizaré las cuatro operaciones más el cálculo del módulo.")
+x = x + 4.0
+print (x)
+print(f"La primera operación, suma, da como resultado {x}, operando un int con un float, dando en resultado float.")

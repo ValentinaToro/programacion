@@ -27,7 +27,3 @@ imprimirVector(3)
 
 mi_array[0], mi_array['nombre']
 
-#aqui edte mi codigo para mostrar al profe
-
-#ah ne equivoque....
-
