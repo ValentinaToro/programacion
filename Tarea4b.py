@@ -11,4 +11,13 @@ print (Constanza)
 Isidora = (4.1 , 5.5)
 print (Isidora)
 Ignacio = (5.1 , 4.7)
-print (Ignacio)     
+print (Ignacio)
+#hago el diccionario con estos datos.
+diccionario = [
+    { 'nombre': 'Alvaro', 'programacion': '5.3', 'fisica': '4.5'},
+    {'nombre': 'Constanza', 'programacion': '4.0', 'fisica': '4.3'},
+    {'nombre': 'Isidora', 'programacion': '4.1', 'fisica': '5.5'},
+    {'nombre': 'Ignacio', 'programacion': '5.1', 'fisica': '4.7'}
+]
+#para corroborar si es un diccionario, reviso el tipo:
+#para recorrer un diccionario se requiere un ciclo o bucle

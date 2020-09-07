@@ -1,6 +1,6 @@
 #
 #En el primero deberán demostrar las 4 operaciones aritméticas, además de la operación módulo
-#  definiendo variables e imprimiéndolas en cada paso, usando f-strings.
+# definiendo variables e imprimiéndolas en cada paso, usando f-strings.
 print ("Primero definiré la variable,")
 valor_global = 6
 x = valor_global
@@ -18,3 +18,11 @@ x = valor_global
 x = x * 3
 print (x)
 print(f"La tercera operación, multiplicación, da {x}.")
+x = valor_global
+x = x / 2
+print (x)
+print (f"La cuarta operación, división, da como resultado {x}.")
+x = valor_global
+x = x % 2
+print (x)
+print (f"La quinta operación, módulo, da como resultado {x}.")
