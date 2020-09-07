@@ -21,3 +21,12 @@ diccionario = [
 ]
 #para corroborar si es un diccionario, reviso el tipo:
 #para recorrer un diccionario se requiere un ciclo o bucle
+print('  Curso  ')
+for d in diccionario:
+    print(f"Nombre: {d['nombre']} | Nota Programacion: {d['programacion']} | Nota Fisica: {d['fisica']}")
+
+print('Ahora imprimiré el tipo para corroborar y la información de un alumno.')
+print (type (diccionario))
+print (diccionario[2]['nombre'])
+print (diccionario[2]['programacion'])
+print (diccionario[2]['fisica'])
